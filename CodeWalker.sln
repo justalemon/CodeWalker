@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWalker.ErrorReport", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWalker.WinForms", "CodeWalker.WinForms\CodeWalker.WinForms.csproj", "{9E46DC27-6508-403E-A917-23C7A389CD26}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWalker", "CodeWalker\CodeWalker.csproj", "{A4E4F8E1-BCBA-46ED-8178-679FB2D3D23B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWalker.Editor", "CodeWalker.Editor\CodeWalker.Editor.csproj", "{A4E4F8E1-BCBA-46ED-8178-679FB2D3D23B}"
 	ProjectSection(ProjectDependencies) = postProject
 		{9E46DC27-6508-403E-A917-23C7A389CD26} = {9E46DC27-6508-403E-A917-23C7A389CD26}
 		{FF6B9F41-14BE-474E-9ED0-549C3BEB7E00} = {FF6B9F41-14BE-474E-9ED0-549C3BEB7E00}

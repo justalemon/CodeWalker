@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CodeWalker\CodeWalker.csproj" />
+    <ProjectReference Include="..\CodeWalker.Editor\CodeWalker.Editor.csproj" />
   </ItemGroup>
 
 </Project>
