@@ -6,6 +6,9 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>CW.ico</ApplicationIcon>
     <AssemblyName>CodeWalker Error Report Tool</AssemblyName>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <OutputPath>..\bin\$(Configuration)\</OutputPath>
   </PropertyGroup>
 
 </Project>
