@@ -31,6 +31,11 @@ namespace CodeWalker.CLI
 
             arguments.WithParsed(x => Arguments = x);
 
+            if (Arguments.Info)
+            {
+                RPF.ShowInfo(Arguments.Source);
+            }
+
             return exitCode;
         }
     }
