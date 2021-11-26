@@ -9,4 +9,9 @@
     <OutputPath>..\bin\$(Configuration)\</OutputPath>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <ProjectReference Include="..\CodeWalker.Core\CodeWalker.Core.csproj" />
+  </ItemGroup>
+
 </Project>
