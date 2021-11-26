@@ -1005,7 +1005,7 @@ namespace CodeWalker.GameFiles
         }
 
 
-        private void EnsureAllEntries()
+        public void EnsureAllEntries()
         {
             if (AllEntries == null)
             {
