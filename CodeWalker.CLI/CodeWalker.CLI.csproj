@@ -2,11 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <AssemblyName>codewalker</AssemblyName>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     <OutputPath>..\bin\$(Configuration)\</OutputPath>
+    <StartupObject>CodeWalker.CLI.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
